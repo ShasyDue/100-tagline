@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shasy Due Mahardika - 100 Tags</title>
+    <style>
+        /* CSS untuk setiap tag */
+        html { background-color: #f0f8ff; font-family: Arial, sans-serif; }
+        head { display: none; }
+        title { color: #333; font-size: 24px; }
+        body { margin: 0; padding: 20px; background-color: #fff; }
+        h1 { color: #2e8b57; text-align: center; }
+        h2 { color: #4682b4; border-bottom: 1px solid #ddd; }
+        h3 { color: #5f9ea0; margin-left: 10px; }
+        h4 { color: #daa520; margin-left: 20px; }
+        h5 { color: #cd5c5c; margin-left: 30px; }
+        h6 { color: #9370db; margin-left: 40px; }
+        p { line-height: 1.6; color: #333; }
+        a { color: #1e90ff; text-decoration: none; }
+        a:hover { text-decoration: underline; color: #ff4500; }
+        img { max-width: 100%; height: auto; border: 1px solid #ddd; }
+        div { padding: 10px; margin: 5px 0; }
+        span { color: #ff6347; font-weight: bold; }
+        ul { list-style-type: square; margin-left: 20px; }
+        ol { list-style-type: decimal; margin-left: 20px; }
+        li { margin-bottom: 5px; }
+        table { border-collapse: collapse; width: 100%; }
+        th { background-color: #4caf50; color: white; }
+        td, th { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        form { background-color: #f9f9f9; padding: 20px; }
+        input { padding: 8px; margin: 5px 0; }
+        button { background-color: #4caf50; color: white; padding: 10px 15px; border: none; }
+        button:hover { background-color: #45a049; }
+        textarea { width: 100%; padding: 10px; }
+        select { padding: 8px; width: 100%; }
+        label { display: block; margin: 10px 0 5px; }
+        fieldset { border: 1px solid #ddd; padding: 10px; }
+        legend { color: #4caf50; padding: 0 10px; }
+        header { background-color: #333; color: white; padding: 20px; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; }
+        nav { background-color: #4682b4; padding: 10px; }
+        section { padding: 20px; margin: 10px 0; }
+        article { background-color: #fff; padding: 15px; margin: 10px 0; }
+        aside { background-color: #f4f4f4; padding: 15px; float: right; width: 30%; }
+        main { width: 65%; float: left; }
+        figure { border: 1px solid #ddd; padding: 10px; text-align: center; }
+        figcaption { font-style: italic; color: #666; }
+        time { color: #666; font-style: italic; }
+        mark { background-color: #ffeb3b; }
+        small { font-size: 0.8em; color: #666; }
+        strong { font-weight: bold; color: #333; }
+        em { font-style: italic; }
+        i { font-style: italic; color: #5f9ea0; }
+        b { font-weight: bold; }
+        u { text-decoration: underline; }
+        s { text-decoration: line-through; }
+        sup { vertical-align: super; font-size: smaller; }
+        sub { vertical-align: sub; font-size: smaller; }
+        code { font-family: monospace; background-color: #f4f4f4; padding: 2px 5px; }
+        pre { background-color: #f4f4f4; padding: 10px; overflow-x: auto; }
+        blockquote { border-left: 3px solid #4caf50; padding-left: 10px; margin-left: 15px; }
+        q { quotes: '"' '"' "'" "'"; font-style: italic; }
+        abbr { border-bottom: 1px dotted #666; cursor: help; }
+        address { font-style: normal; margin: 10px 0; }
+        cite { font-style: italic; color: #666; }
+        dfn { font-style: italic; font-weight: bold; }
+        kbd { background-color: #f4f4f4; border: 1px solid #ddd; padding: 2px 5px; }
+        samp { font-family: monospace; background-color: #f4f4f4; }
+        var { font-style: italic; color: #5f9ea0; }
+        audio { width: 100%; margin: 10px 0; }
+        video { width: 100%; margin: 10px 0; }
+        source { display: none; }
+        track { display: none; }
+        canvas { border: 1px solid #ddd; background-color: #f9f9f9; }
+        svg { border: 1px solid #ddd; }
+        iframe { border: 1px solid #ddd; width: 100%; }
+        object { border: 1px solid #ddd; width: 100%; }
+        param { display: none; }
+        embed { border: 1px solid #ddd; width: 100%; }
+        picture { display: block; margin: 10px 0; }
+        template { display: none; }
+        details { border: 1px solid #ddd; padding: 10px; margin: 10px 0; }
+        summary { cursor: pointer; font-weight: bold; }
+        menu { list-style-type: none; padding: 0; }
+        dialog { border: 1px solid #ddd; padding: 20px; }
+        meter { width: 100%; height: 20px; }
+        progress { width: 100%; height: 20px; }
+        output { font-weight: bold; color: #4caf50; }
+        ruby { font-size: 1.2em; }
+        rt { font-size: 0.7em; color: #666; }
+        rp { display: none; }
+        bdi { direction: rtl; unicode-bidi: bidi-override; }
+        bdo { direction: rtl; }
+        wbr { display: inline-block; }
+        noscript { background-color: #ffebee; padding: 10px; }
+        caption { caption-side: top; font-weight: bold; margin-bottom: 10px; }
+        colgroup { display: none; }
+        col { display: none; }
+        tbody { display: table-row-group; }
+        thead { display: table-header-group; font-weight: bold; }
+        tfoot { display: table-footer-group; font-weight: bold; }
+        tr { display: table-row; }
+        td { display: table-cell; }
+        th { display: table-cell; }
+        datalist { display: none; }
+        optgroup { font-weight: bold; }
+        option { padding: 5px; }
+        legend { font-weight: bold; }
+        fieldset { margin: 10px 0; }
+        button { cursor: pointer; }
+        select { cursor: pointer; }
+        input[type="checkbox"] { cursor: pointer; }
+        input[type="radio"] { cursor: pointer; }
+        input[type="submit"] { cursor: pointer; }
+        input[type="reset"] { cursor: pointer; }
+        input[type="button"] { cursor: pointer; }
+        input[type="color"] { cursor: pointer; }
+        input[type="date"] { cursor: pointer; }
+        input[type="datetime-local"] { cursor: pointer; }
+        input[type="email"] { cursor: text; }
+        input[type="file"] { cursor: pointer; }
+        input[type="hidden"] { display: none; }
+        input[type="image"] { cursor: pointer; }
+        input[type="month"] { cursor: pointer; }
+        input[type="number"] { cursor: text; }
+        input[type="password"] { cursor: text; }
+        input[type="range"] { cursor: pointer; }
+        input[type="search"] { cursor: text; }
+        input[type="tel"] { cursor: text; }
+        input[type="text"] { cursor: text; }
+        input[type="time"] { cursor: pointer; }
+        input[type="url"] { cursor: text; }
+        input[type="week"] { cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shasy Due Mahardika</h1>
+        <p>100 Tag HTML dengan CSS</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">Bagian 1</a></li>
+            <li><a href="#section2">Bagian 2</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="section1">
+            <h2>Tag HTML Umum</h2>
+            <p>Ini adalah contoh paragraf dengan <span>span</span> di dalamnya.</p>
+            
+            <div>
+                <p>Div adalah wadah serbaguna</p>
+                <img src="https://via.placeholder.com/150" alt="Placeholder">
+            </div>
+            
+            <article>
+                <h3>Artikel Contoh</h3>
+                <p>Ini adalah artikel independen.</p>
+            </article>
+            
+            <aside>
+                <h4>Sidebar</h4>
+                <p>Informasi tambahan bisa ditempatkan di sini.</p>
+            </aside>
+        </section>
+
+        <section id="section2">
+            <h2>Form dan Tabel</h2>
+            <form>
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" placeholder="Shasy Due Mahardika">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                
+                <button type="submit">Kirim</button>
+            </form>
+            
+            <table>
+                <tr>
+                    <th>Tag</th>
+                    <th>Deskripsi</th>
+                </tr>
+                <tr>
+                    <td>&lt;div&gt;</td>
+                    <td>Wadah blok</td>
+                </tr>
+                <tr>
+                    <td>&lt;span&gt;</td>
+                    <td>Wadah inline</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Shasy Due Mahardika</p>
+        <address>Kontak: example@email.com</address>
+    </footer>
+</body>
+</html>
